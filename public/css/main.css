@@ -1,0 +1,141 @@
+.wrapper {
+  max-width: 1140px;
+  margin: 10px auto;
+}
+
+.middle {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.middle .todo {
+  color: #de600d;
+  background-color: #d5ebf1;
+  padding: 5px 50px;
+  margin-bottom: 60px;
+}
+.middle .must {
+  background-color: #00a7ee;
+  color: #f7ffff;
+  padding: 5px 20px;
+}
+.middle .should {
+  background-color: #02A79F;
+  color: #f7ffff;
+  padding: 5px 20px;
+}
+.middle .if {
+  background-color: #DE5F56;
+  color: #f7ffff;
+  padding: 5px 20px;
+}
+.middle .add-task-must {
+  display: block;
+  text-decoration: none;
+  background-color: #0065b8;
+  color: #FFF;
+  padding: 5px 10px;
+}
+.middle .add-task-should {
+  text-decoration: none;
+  background-color: #02a747;
+  color: #FFF;
+  padding: 5px 10px;
+}
+.middle .add-task-if {
+  text-decoration: none;
+  background-color: #de600d;
+  color: #FFF;
+  padding: 5px 10px;
+}
+.middle .task-view {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 50px 0;
+}
+.middle .task-view .row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+.middle .task-view .delete {
+  border: 0;
+}
+.middle .task-view p {
+  word-break: break-all;
+  margin-top: 0;
+  width: 85%;
+}
+.middle .task-color {
+  color: #f7ffff;
+  font-size: 20px;
+}
+.middle .must-color {
+  background-color: #0065b8;
+}
+.middle .should-color {
+  background-color: #02a747;
+}
+.middle .if-color {
+  background-color: #de600d;
+}
+
+.add {
+  display: block;
+  border: 0;
+  padding: 8px 10px;
+  color: #FFF;
+  background-color: gainsboro;
+  font-weight: bold;
+  width: 100%;
+  font-size: 18px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.type {
+  padding: 10px 5px;
+  margin-top: 5px;
+  width: 25%;
+  font-size: 15px;
+  color: grey;
+  display: block;
+  border-radius: 10px;
+}
+
+.type:focus {
+  outline: 0;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.view-my-tasks {
+  border: 0;
+}
+
+.view-my-tasks {
+  text-decoration: none;
+  display: block;
+}
